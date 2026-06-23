@@ -1,6 +1,7 @@
 "use client";
 
 import ReactMarkdown from "react-markdown";
+import remarkGfm from "remark-gfm";
 import type { ChatMessage } from "@/lib/types";
 import { clsx } from "@/lib/clsx";
 
@@ -29,10 +30,11 @@ export function MessageBubble({ message }: { message: ChatMessage }) {
               "prose-headings:font-semibold prose-headings:mt-3 prose-headings:mb-1",
               "prose-code:rounded prose-code:bg-slate-100 prose-code:px-1 prose-code:py-0.5 prose-code:text-[11px]",
               "prose-pre:bg-slate-100 prose-pre:text-xs",
+              "prose-table:text-xs prose-th:px-2 prose-th:py-1 prose-td:px-2 prose-td:py-1",
               message.streaming && message.content && "streaming-cursor"
             )}
           >
-            <ReactMarkdown>{message.content}</ReactMarkdown>
+            <ReactMarkdown remarkPlugins={[remarkGfm]}>{message.content}</ReactMarkdown>
           </div>
         )}
         {message.streaming && !message.content && (
