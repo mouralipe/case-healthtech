@@ -1,0 +1,38 @@
+[
+  {
+    "id": "faq-001",
+    "question": "What are the clinic's opening hours?",
+    "answer": "The clinic is open Monday to Friday from 8 AM to 8 PM, and Saturdays from 9 AM to 2 PM. No appointments on Sundays or public holidays.",
+    "tags": ["hours", "opening", "schedule", "availability"]
+  },
+  {
+    "id": "faq-002",
+    "question": "How can I book an appointment?",
+    "answer": "Appointments can be booked through the virtual assistant (chat), by phone (+351 210 000 000), or in person at the reception desk. Just provide the patient's name and preferred time slot.",
+    "tags": ["book", "appointment", "schedule", "reservation"]
+  },
+  {
+    "id": "faq-003",
+    "question": "Which health insurance plans are accepted?",
+    "answer": "We accept Médis, Multicare, AdvanceCare, and Fidelidade health insurance plans. For other insurers, please contact us to verify coverage.",
+    "tags": ["insurance", "coverage", "plan", "health"]
+  },
+  {
+    "id": "faq-004",
+    "question": "How does the post-appointment follow-up system work?",
+    "answer": "After each appointment, the assistant can automatically send (with doctor approval) a follow-up message to the patient with instructions, medication reminders, or a return visit booking.",
+    "tags": ["follow-up", "post-appointment", "message", "reminder", "return"]
+  },
+  {
+    "id": "faq-005",
+    "question": "How do I cancel or reschedule an appointment?",
+    "answer": "Cancellations and rescheduling must be done at least 24 hours in advance. You can use the chat, phone, or email at appointments@qubio.pt.",
+    "tags": ["cancel", "cancellation", "reschedule", "change"]
+  },
+  {
+    "id": "faq-006",
+    "question": "Does the assistant have access to the patient's clinical history?",
+    "answer": "No. The assistant only has access to operational data (schedule, contact info, last visit date). Clinical records are kept in a separate medical system, in compliance with GDPR.",
+    "tags": ["history", "records", "data", "privacy", "GDPR"]
+  }
+]
