@@ -2,6 +2,8 @@
 
 AI chat assistant for clinic operations. The user talks in natural language and the agent executes actions via **tools**: check schedule, look up patients, book appointments, and send follow-ups.
 
+**Live demo:** https://case-healthtech.vercel.app
+
 ## What this project demonstrates
 
 | Feature | Where |
